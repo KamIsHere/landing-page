@@ -1,12 +1,15 @@
 body {
-    margin-left: 0px;
+background-color: rgba(0, 1, 1, 0.66);
+padding-top: 30px;
    }
    
    
    
    #nav-bar {
      position: fixed;
+     height:;
      width: 100%;
+     left: 0;
      top: 0;
      
    }
@@ -35,6 +38,58 @@ body {
        background-color: #111;
    }
    
+
+   #title {
+       text-align: center;
+       color: white;
+   }
+
+   input[type="email"] {
+    max-width: 275px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+   #form {
+       text-align: center;
+   }
+
+   #submit {
+    background-color: rgb(64, 102, 110);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#header-img {
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#about, #parts , #contact, #ride {
+color: white;
+text-align: center;
+}
+
+ #text {
+    color: white;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+}
    
    @media(max-height: 800px) {
       p {
