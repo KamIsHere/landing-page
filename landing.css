@@ -1,5 +1,5 @@
 body {
-background-color: rgba(2, 17, 17, 0.954);
+background-color: rgba(7, 26, 26, 0.954);
 padding-top: 30px;
    }
    
@@ -38,11 +38,18 @@ padding-top: 30px;
    li a hover {
     color: rgb(201, 21, 21);
    }
+
+   .fa-bicycle {
+       color: red;
+       font-size: 30px;
+   }
    
 
-   #title {
+   h1 {
        text-align: center;
        color: white;
+       font-family: 'Indie Flower', cursive;
+       font-size: 60px;
   
    }
 
@@ -80,8 +87,9 @@ padding-top: 30px;
 }
 
 #about, #parts , #contact, #ride {
-color: white;
+color: red;
 text-align: center;
+font-family: 'Indie Flower', cursive;
 }
 
  #text {
