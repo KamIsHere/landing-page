@@ -1,5 +1,5 @@
 body {
-background-color: rgba(0, 1, 1, 0.66);
+background-color: rgba(2, 17, 17, 0.954);
 padding-top: 30px;
    }
    
@@ -13,6 +13,7 @@ padding-top: 30px;
      top: 0;
      
    }
+
    
    ul {
        display: flex; 
@@ -35,13 +36,14 @@ padding-top: 30px;
    }
    
    li a hover {
-       background-color: #111;
+    color: rgb(201, 21, 21);
    }
    
 
    #title {
        text-align: center;
        color: white;
+  
    }
 
    input[type="email"] {
@@ -55,19 +57,19 @@ padding-top: 30px;
        text-align: center;
    }
 
-   #submit {
+    #submit {
     background-color: rgb(64, 102, 110);
     border-radius: 5px;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 15px;
     margin: 4px 2px;
-    cursor: pointer;
-}
+    /* cursor: pointer; */
+} 
 
 #header-img {
     border-radius: 5px;
@@ -84,13 +86,17 @@ text-align: center;
 
  #text {
     color: white;
+    font-family: Roboto;
+    font-size: 1em;
 }
 
 #video {
     display: block;
     margin: 0 auto;
 }
-   
+   .grid-item {
+       color: rgb(227, 167, 167);
+   }
    @media(max-height: 800px) {
       p {
        font-size: 15px;
