@@ -1,9 +1,7 @@
-body {
-background-color: rgba(7, 26, 26, 0.954);
-padding-top: 30px;
-   }
-   
-   
+   body {
+    background-color: rgba(7, 26, 26, 0.954);
+    padding-top: 30px;
+      }
    
    #nav-bar {
      position: fixed;
@@ -11,21 +9,19 @@ padding-top: 30px;
      width: 100%;
      left: 0;
      top: 0;
-     
    }
 
-   
    ul {
        display: flex; 
        justify-content: flex-end;
-       list-style-type: none;
+       /* list-style-type: none; */
        margin: 0;
-       padding: 0;
-       overflow: hidden;
-       background-color: #333;
+       /* padding: 0; */
+       /* overflow: hidden; */
+       background-color: black;
    }
    
-   
+    
    
    li a {
        display: block;
@@ -35,8 +31,9 @@ padding-top: 30px;
        text-decoration: none;
    }
    
-   li a hover {
+li a :hover {
     color: rgb(201, 21, 21);
+    background-color: red;
    }
 
    .fa-bicycle {
@@ -53,29 +50,26 @@ padding-top: 30px;
   
    }
 
-   input[type="email"] {
+    input[type="email"] {
     max-width: 275px;
     width: 100%;
     padding: 10px;
     border-radius: 5px;
-  }
+  } 
 
    #form {
        text-align: center;
    }
 
     #submit {
-    background-color: rgb(64, 102, 110);
+    background-color: black;
     border-radius: 5px;
     border: none;
     color: white;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
     font-size: 15px;
     margin: 4px 2px;
-    /* cursor: pointer; */
+
 } 
 
 #header-img {
@@ -90,13 +84,15 @@ padding-top: 30px;
 color: red;
 text-align: center;
 font-family: 'Indie Flower', cursive;
-}
+} 
 
  #text {
     color: white;
     font-family: Roboto;
     font-size: 1em;
 }
+
+
 
 #video {
     display: block;
